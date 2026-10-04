@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+
+# Build & Dist artifacts
+build/
+dist/
+*.spec
+
+# Large binaries (GitHub has file size limits, .exe belongs in GitHub Releases)
+*.exe
+ffmpeg.exe
+
+# Temporary files
+*.log
+*.tmp
+*.mp4
+*.mkv
+thumb.jpg
